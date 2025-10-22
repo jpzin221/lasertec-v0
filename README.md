@@ -1,51 +1,30 @@
-🌐 LaserTec
+# Laser Tec landing page
 
-Bem-vindo ao repositório do LaserTec, um projeto desenvolvido com o objetivo de criar um site moderno, responsivo e funcional para uma empresa fictícia de tecnologia a laser. O projeto foi desenvolvido como parte de um trabalho acadêmico em grupo, com foco em boas práticas de desenvolvimento web, design limpo e integração de banco de dados.
+*Automatically synced with your [v0.app](https://v0.app) deployments*
 
-👥 Integrantes do Grupo
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/jpedroalvesrocha55-9474s-projects/v0-laser-tec-landing-page)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/ZuL1lHfVQQV)
 
-João Pedro Alves
+## Overview
 
-Savio Gabriel
+This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
+Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
 
-Wesley Amorim
+## Deployment
 
-Perla Machado
+Your project is live at:
 
-João Arthur
+**[https://vercel.com/jpedroalvesrocha55-9474s-projects/v0-laser-tec-landing-page](https://vercel.com/jpedroalvesrocha55-9474s-projects/v0-laser-tec-landing-page)**
 
-Antonio
+## Build your app
 
-🚀 Objetivo do Projeto
+Continue building your app on:
 
-O LaserTec tem como objetivo apresentar os serviços, produtos e tecnologias da empresa, além de oferecer uma área de contato e cadastro de clientes.
-O projeto também serve como prática de integração entre front-end e back-end, explorando conceitos de componentização, rotas dinâmicas e persistência de dados.
+**[https://v0.app/chat/projects/ZuL1lHfVQQV](https://v0.app/chat/projects/ZuL1lHfVQQV)**
 
-🧰 Tecnologias Utilizadas
-Frontend
+## How It Works
 
-Next.js 14+
- — Framework React com suporte a Server Actions
-
-TypeScript
- — Superset do JavaScript com tipagem estática
-
-Tailwind CSS
- — Framework CSS utilitário para design responsivo
-
-React Icons
- — Ícones vetoriais modernos
-
-Backend
-
-Server Actions do Next.js ("use server")
-
-Integração com banco de dados via:
-
-Supabase
-
-Neon/PostgreSQL
-
-MongoDB
-
-(A integração pode ser ajustada conforme o ambiente de deploy.)
+1. Create and modify your project using [v0.app](https://v0.app)
+2. Deploy your chats from the v0 interface
+3. Changes are automatically pushed to this repository
+4. Vercel deploys the latest version from this repository

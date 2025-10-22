@@ -45,6 +45,11 @@ export function ProductsSection() {
     },
   ]
 
+  const getWhatsAppLink = (productName: string) => {
+    const message = `Olá! Quero o orçamento de ${productName}`
+    return `https://wa.me/5577992018245?text=${encodeURIComponent(message)}`
+  }
+
   return (
     <section id="produtos" className="py-24 bg-background">
       <div className="container mx-auto px-4">
@@ -82,11 +87,7 @@ export function ProductsSection() {
                   variant="outline"
                   className="w-full border-accent/50 hover:bg-accent/10 group/btn bg-transparent"
                 >
-                  <a
-                    href="https://wa.me/5577992018245?text=Olá%20quero%20fazer%20meu%20orçamento"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={getWhatsAppLink(product.name)} target="_blank" rel="noopener noreferrer">
                     Personalizar Agora
                     <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                   </a>
